@@ -1,16 +1,14 @@
-## Hi there 👋
+# Jekyll Collections Template
 
-<!--
-**HybridHelix/HybridHelix** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## How to Use
+1. Push this folder to your GitHub repository.
+2. Enable GitHub Pages in your repo settings.
+3. Your site will auto-generate an index of all docs under `/docs/`.
 
-Here are some ideas to get you started:
+### Folder Structure
+- `_config.yml`: Jekyll configuration with collections enabled.
+- `_docs/`: Contains your documentation pages.
+- `docs/index.md`: Auto-lists all items in the `docs` collection.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Theme
+Uses the default `minima` theme.

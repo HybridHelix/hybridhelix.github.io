@@ -1,0 +1,14 @@
+title: My Jekyll Site
+theme: minima
+
+collections:
+  docs:
+    output: true
+    permalink: /docs/:name/
+
+defaults:
+  - scope:
+      path: "_docs"
+      type: docs
+    values:
+      layout: page
