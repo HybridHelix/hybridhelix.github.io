@@ -1,1 +1,13 @@
-Test
+---
+layout: default
+title: Index
+---
+
+<h1>Site Index</h1>
+<ul>
+  {% assign pages = site.pages | sort: "title" %}
+  {% for p in pages %}
+    {% if p.url != "/" and p.title and p.index != false %}
+      <li>{{ p.url | relative_url }}{{ p.title }}</a></li>
+    {% endif %}
+   {% endfor %}
